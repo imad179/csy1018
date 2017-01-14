@@ -1,0 +1,150 @@
+html {
+height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #89B918;
+  border-bottom: 5px solid #333366;
+}
+
+.headerContent {
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.headerContent img {
+  width:  659px;
+  height: 144px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.nav {
+  height: 40px;
+  background: #323232;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav ul li {
+  list-style: none;
+  font :16px Chalkboard;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.nav ul li .active {
+    background-color: #89B918;
+    color: white;
+}
+
+.nav ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.information {
+  width: 100%;
+  height: auto;
+  background-color: #56848a;
+  border-bottom: 3px solid #333366;
+  border-top: 3px solid #333366;
+}
+
+.informationContent {
+  width: 1024px;
+  padding: 3em;
+  height: auto;
+  margin: 0 auto;
+}
+
+.informationContent p{
+  font-family: 'Arima Madurai', cursive;
+}
+
+.informationContent h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 37px;
+}
+
+.informationContent h2{
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 33px;
+}
+
+.informationContent h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+}
+
+.informationContent h4{
+  font-family: 'Arima Madurai', cursive;
+  font-size: 20px;
+}
+
+.myName {
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+  padding: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #323232;
+  border-bottom: 3px solid #89B918;
+  border-top: 3px solid #323232;
+}
+
+.footerContent {
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.footerContent p{
+  font : 12px Arial;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+form {
+  padding: 1em;
+  width: 40%;
+  min-width: 15em;
+  max-width: 26.5em;
+}
+
+.form-title {
+  margin-top: 0;
+}
+
+.formContent {
+  margin-bottom: 0.5em;
+  font-family: 'Arima Madurai', cursive;
+  padding-left: 15px;
+}
